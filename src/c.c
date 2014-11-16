@@ -31,6 +31,7 @@ void strip(char *s);
 
 int main (int argc, const char *argv[]) {
 	// Get the current directory
+	// I add some comments here
 	char cwd[1024];
 	if (!getcwd(cwd, sizeof(cwd))) {
 		perror("getcwd() error");
